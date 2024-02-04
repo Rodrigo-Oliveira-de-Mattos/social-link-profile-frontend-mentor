@@ -19,7 +19,10 @@
     <body>
         <main class="container">
             <div class="perfil">
-                <img src="src/images/avatar-rodrigo.jpg" alt="Meu avatar" />
+                <picture>
+                    <source srcset="src/images/avatar-rodrigo-larger.jpg" media="(min-width: 500px)">
+                    <img src="src/images/avatar-rodrigo-small.jpg" alt="Meu avatar" />
+                </picture>
                 <div class="informacoes">
                     <h1 class="nome">Rodrigo Oliveira</h1>
                     <p class="localizacao">Aripuanã, Mato-Grosso</p>
