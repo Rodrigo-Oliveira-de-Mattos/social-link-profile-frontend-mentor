@@ -11,19 +11,13 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 33rem;
     padding: 2rem;
     border-radius: 1rem;
     transition: 0.7s;
 }
 
-@media only screen and (min-width: 500px) {
-    .container{
-        transition: 1s;
-        width: 40rem;
-    }
-}
 
 .container .perfil{
     font-size: var(--texto-simples);
@@ -99,4 +93,23 @@ body{
     transition: .5s;
     background-color: var(--green);
     color: var(--dark-grey);
+}
+
+@media only screen and (min-width: 500px) {
+    .container{
+        transition: 1s;
+        width: 40rem;
+        height: 58rem;
+    }
+    .container .lista-links{
+        height: 100%;
+    }
+    .container .lista-links ul{
+        height: 100%;
+        justify-content: space-evenly;
+    }
+
+    .container .lista-links ul .links{
+
+    }
 }
