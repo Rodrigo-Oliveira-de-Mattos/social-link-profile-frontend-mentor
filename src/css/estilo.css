@@ -92,9 +92,11 @@ body{
     color: var(--white);
     font-size: var(--texto-simples);
     font-weight: 600;
+    transition: .5s;
 }
 
 .lista-links ul .links a:hover{
+    transition: .5s;
     background-color: var(--green);
     color: var(--dark-grey);
 }
